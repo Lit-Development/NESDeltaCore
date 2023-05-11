@@ -539,4 +539,8 @@ public extension NESEmulatorBridge
     func updateCheats()
     {
     }
+    
+    func updatePalette()
+    {
+    }
 }
