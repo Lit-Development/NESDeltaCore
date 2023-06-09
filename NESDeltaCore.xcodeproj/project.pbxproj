@@ -301,7 +301,7 @@
 		BF4634A320D9D46800CD12FD /* libNestopia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F702220BDCF93009114FF /* libNestopia.a */; };
 		BF4634A420D9D46E00CD12FD /* NESEmulatorBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF5CA7F020C1EE0B00BDFCBC /* NESEmulatorBridge.cpp */; };
 		BFEE181F20C21BE6006A17CD /* NESEmulatorBridge.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BF5CA7F120C1EE0B00BDFCBC /* NESEmulatorBridge.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFFBD3D72249B6E7002EFC79 /* Standard.deltaskin in Resources */ = {isa = PBXBuildFile; fileRef = BFFBD3D62249B6E7002EFC79 /* Standard.deltaskin */; };
+		BFFBD3D72249B6E7002EFC79 /* Standard.ignitedskin in Resources */ = {isa = PBXBuildFile; fileRef = BFFBD3D62249B6E7002EFC79 /* Standard.ignitedskin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -957,7 +957,7 @@
 		BF5CA7F220C1FF4000BDFCBC /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = Makefile; sourceTree = "<group>"; };
 		BF9DD5AA20C72BBB0098C38D /* nestopia.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nestopia.js; sourceTree = "<group>"; };
 		BFEE181D20C21B01006A17CD /* NESEmulatorBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESEmulatorBridge.swift; sourceTree = "<group>"; };
-		BFFBD3D62249B6E7002EFC79 /* Standard.deltaskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.deltaskin; path = "Controller Skin/Standard.deltaskin"; sourceTree = "<group>"; };
+		BFFBD3D62249B6E7002EFC79 /* Standard.ignitedskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.ignitedskin; path = "Controller Skin/Standard.ignitedskin"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1673,7 +1673,7 @@
 			children = (
 				BF4634A520D9D60200CD12FD /* NstDatabase.xml */,
 				BF3C12F720438F3F0079A4B5 /* Info.plist */,
-				BFFBD3D62249B6E7002EFC79 /* Standard.deltaskin */,
+				BFFBD3D62249B6E7002EFC79 /* Standard.ignitedskin */,
 				BF2F73C120BF1A93009114FF /* Standard.deltamapping */,
 			);
 			name = "Supporting Files";
@@ -1836,7 +1836,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFBD3D72249B6E7002EFC79 /* Standard.deltaskin in Resources */,
+				BFFBD3D72249B6E7002EFC79 /* Standard.ignitedskin in Resources */,
 				BF2F73C220BF1A93009114FF /* Standard.deltamapping in Resources */,
 				BF2F73BE20BDD8CA009114FF /* NstDatabase.xml in Resources */,
 			);
