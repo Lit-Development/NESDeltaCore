@@ -3,9 +3,9 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1"
   spec.summary      = "Nintendo Entertainment System plug-in for Delta emulator."
   spec.description  = "iOS framework that wraps Nestopia to allow playing NES games with Delta emulator."
-  spec.homepage     = "https://github.com/Lit-Development/NESDeltaCore"
+  spec.homepage     = "https://github.com/LitRitt/NESDeltaCore"
   spec.platform     = :ios, "14.0"
-  spec.source       = { :git => "https://github.com/Lit-Development/NESDeltaCore.git" }
+  spec.source       = { :git => "https://github.com/LitRitt/NESDeltaCore.git" }
 
   spec.author             = { "Chris Rittenhouse" => "dev@litritt.com" }
   spec.social_media_url   = "https://twitter.com/lit_ritt"
