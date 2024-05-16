@@ -947,7 +947,7 @@
 		BF2F73B420BDD1AA009114FF /* NstVsSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NstVsSystem.cpp; path = nestopia/source/core/vssystem/NstVsSystem.cpp; sourceTree = "<group>"; };
 		BF2F73B520BDD1AB009114FF /* NstVsTkoBoxing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NstVsTkoBoxing.hpp; path = nestopia/source/core/vssystem/NstVsTkoBoxing.hpp; sourceTree = "<group>"; };
 		BF2F73B620BDD1AB009114FF /* NstVsSuperXevious.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NstVsSuperXevious.hpp; path = nestopia/source/core/vssystem/NstVsSuperXevious.hpp; sourceTree = "<group>"; };
-		BF2F73C120BF1A93009114FF /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
+		BF2F73C120BF1A93009114FF /* Standard.deltamapping */ = {isa = PBXFileReference; explicitFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
 		BF3C12F320438F3F0079A4B5 /* NESDeltaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NESDeltaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3C12F620438F3F0079A4B5 /* NESDeltaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NESDeltaCore.h; sourceTree = "<group>"; };
 		BF3C12F720438F3F0079A4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2374,7 +2374,7 @@
 				INFOPLIST_FILE = NESDeltaCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.NESDeltaCore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litritt.NESDeltaCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2399,7 +2399,7 @@
 				INFOPLIST_FILE = NESDeltaCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.NESDeltaCore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litritt.NESDeltaCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;

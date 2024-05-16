@@ -15,7 +15,7 @@ import DeltaCore
 
 public extension GameType
 {
-    static let nes = GameType("com.rileytestut.delta.game.nes")
+    static let nes = GameType("com.litritt.ignited.game.nes")
 }
 
 public extension CheatType
@@ -45,7 +45,7 @@ public struct NES: DeltaCoreProtocol
     public static let core = NES()
     
     public var name: String { "NESDeltaCore" }
-    public var identifier: String { "com.rileytestut.NESDeltaCore" }
+    public var identifier: String { "com.litritt.NESDeltaCore" }
     
     public var gameType: GameType { GameType.nes }
     public var gameInputType: Input.Type { NESGameInput.self }
